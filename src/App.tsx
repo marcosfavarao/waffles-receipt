@@ -1,7 +1,3 @@
 export const App = () => {
-  return (
-    <>
-      <h1>Created project using create-react-app</h1>
-    </>
-  );
+  return <h1>Created project using create-react-app</h1>;
 };
