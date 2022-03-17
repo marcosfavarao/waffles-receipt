@@ -1,3 +1,12 @@
+import { ReceiptPage } from './components/ReceiptPage';
+
+import { GlobalStyle } from './common/styles/GlobalStyle';
+
 export const App = () => {
-  return <h1>Created project using create-react-app</h1>;
+  return (
+    <>
+      <ReceiptPage />
+      <GlobalStyle />
+    </>
+  );
 };
