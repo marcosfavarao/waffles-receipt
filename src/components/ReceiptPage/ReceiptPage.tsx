@@ -69,14 +69,16 @@ export const ReceiptPage = () => {
         <h2>Informações Adicionais</h2>
         <p>Você poderá servir este Waffles no café da manhã com geleia.</p>
         <p>
-          Feito com 💜 por
-          <a
-            href="https://www.rocketseat.com.br/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Rocketseat
-          </a>
+          Feito com 💜 por Marcos Favarão.
+          <span>
+            <a
+              href="https://github.com/marcosfavarao"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get in touch! ✌
+            </a>
+          </span>
         </p>
       </Content>
     </Container>

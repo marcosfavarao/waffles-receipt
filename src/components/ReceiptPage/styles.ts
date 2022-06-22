@@ -7,7 +7,7 @@ export const Container = styled.div`
   background: var(--foreground);
 
   margin: 0 auto;
-  margin-top: 7rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 
   border: 0;
@@ -52,7 +52,7 @@ export const Header = styled.header`
 
       transition: all 0.5s;
       &:hover {
-        color: #8257e6;
+        color: var(--blue);
         filter: brightness(0.9);
       }
     }
@@ -91,12 +91,12 @@ export const Content = styled.section`
     a {
       color: var(--content);
       border: 0;
-      text-decoration: none;
+      text-decoration: underline;
       margin: 0.5rem;
 
       transition: all 0.5s;
       &:hover {
-        color: #8257e6;
+        color: var(--blue);
         filter: brightness(0.9);
       }
     }
